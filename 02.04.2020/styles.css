@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+}
+
+.info-section {
+    display: flex;
+}
+
+.navigation {
+    width: 20vw;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list-item {
+    background-color: grey;
+    margin: 8px;
+    padding: 8px;
+}
+
+.nav-list-link {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section {
+    width: 60vw;
+}
+
+img {
+    max-width: 100%;
+}
+
+.news {
+    width: 20vw;
+}
