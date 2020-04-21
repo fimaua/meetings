@@ -8,6 +8,3 @@ const some = arr => {
     }
     return false
 }
-const result = some(numbers)
-console.log(result)
-console.log(numbers)
