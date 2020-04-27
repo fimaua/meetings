@@ -7,7 +7,7 @@ const numbersList = [1, 2, 3, 4, 5];
 /* ==================================== */
 
 const lastNumber = numbersList.pop()
-    // console.log(numbersList)
+console.log(lastNumber)
 
 /* pop - удалит из массива последний элемент и вернет его */
 
