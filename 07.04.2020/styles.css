@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.menu__item {
+  line-height: 48px;
+  margin-left: 16px;
+  color: white;
+}
+.menu__item-text {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.menu__item-text .submenu {
+  display: none;
+}
+.menu__item-text .submenu:hover {
+  display: block;
+}
+.menu__item:hover {
+  color: yellow;
+}
+
+.header {
+  height: 48px;
+  background-color: green;
+}
+
+/*# sourceMappingURL=styles.css.map */
