@@ -1,7 +1,8 @@
 'use strict'
 
-const addPropertyV1 = (userData, userId) =>
-    userData.id = userId;
+const addPropertyV1 = (userData, userId) => {
+    return userData.id = userId;
+}
 
 const addPropertyV2 = (userData, userId) =>
     Object.assign(userData, { id: userId })
