@@ -1,7 +1,8 @@
 'use strict'
 
 const addPropertyV1 = (userData, userId) => {
-    return userData.id = userId;
+    userData.id = userId;
+    return userData
 }
 
 const addPropertyV2 = (userData, userId) =>
