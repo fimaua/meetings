@@ -24,8 +24,8 @@
 const getCustomersList = (obj) => {
     return Object.entries(obj).map(
         (arr) => {
-            let obj = arr[1];
-            return Object.assign(obj, { id: arr[0] })
+            let obj1 = arr[1];
+            return Object.assign(obj1, { id: arr[0] })
         }
     ).sort((a, b) => a.age - b.age)
 }
