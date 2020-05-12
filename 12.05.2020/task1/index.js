@@ -1,5 +1,5 @@
 export function makeCounter() {
-    let counter = 0;
+    let counter = -1;
     return function count() {
         counter++
         return counter;
