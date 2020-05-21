@@ -24,5 +24,3 @@ export const user = {
         return this._firstName;
     },
 }
-user.firstName = 1;
-console.log(user._firstName)
