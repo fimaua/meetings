@@ -1,5 +1,5 @@
 export const user = {
-    _firstName: 'John',
+    firstName: 'John',
     lastName: 'Doe',
     getFullName() {
         return `${this.firstName} ${this.lastName}`
@@ -13,14 +13,14 @@ export const user = {
     set fullName(fullName) {
         [this.firstName, this.lastName] = fullName.split(' ')
     },
-    set firstName(name) {
-        if (typeof name === 'string') {
-            this._firstName = name;
-        } else {
-            console.error('Not a string')
-        }
-    },
-    get firstName() {
-        return this._firstName;
-    },
+    // set firstName(name) {
+    //     if (typeof name === 'string') {
+    //         this._firstName = name;
+    //     } else {
+    //         console.error('Not a string')
+    //     }
+    // },
+    // get firstName() {
+    //     return this._firstName;
+    // },
 }
